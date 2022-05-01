@@ -1,0 +1,111 @@
+import hashlib
+import base64
+import os, sys
+
+def darknet():
+	if sys.platform == "win32":
+		os.system("cls")
+	else:
+		os.system("clear")
+darknet()		
+a = """\033[1;32m
+██████╗░░█████╗░░██████╗███████╗░░░░░░█████╗░░░██╗██╗          
+██╔══██╗██╔══██╗██╔════╝██╔════╝░░░░░██╔═══╝░░██╔╝██║              
+██████╦╝███████║╚█████╗░█████╗░░░░░░░██████╗░██╔╝░██║          
+██╔══██╗██╔══██║░╚═══██╗██╔══╝░░░░░░░██╔══██╗███████║            
+██████╦╝██║░░██║██████╔╝███████╗░░░░░╚█████╔╝╚════██║             
+╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝░░░░░░╚════╝░░░░░░╚═╝          
+
+"""
+b = """
+[*] Dasturchi: @darknet_off1cial 
+[*] Base-64 encode va decode qilish uchun
+"""
+print(a, b)
+dark = input("""[*] Menular qatoridan kerakligini tanlang !
+
+[1] Base-64 encode
+[2] Base-64 decode
+[3] Kalkulyator
+[4] Md5 encoding
+[5] binary number encode
+[6] Telegram Kanallarimiz
+[7] Info
+
+""")
+if dark == '1':
+	string = input('Shifrlash uchun so\'z yozing: ')
+	string_encode = string.encode('utf-8')
+	encoded = base64.b64encode(string_encode, altchars=b'-:')
+	print(encoded)
+if dark == '2':
+	 code_string = input("[*] Shifrdan ochmowchi bolgan code:")
+	 print(base64.b64decode(code_string))
+if dark == '3':
+	 print(eval(input("Son yozing: ")))
+	 
+if dark == '6':
+	 darknet()
+	 tg = input("""\033[1;34m]
+	 
+████████╗░██████╗░           
+╚══██╔══╝██╔════╝░         
+░░░██║░░░██║░░██╗░          
+░░░██║░░░██║░░╚██╗         
+░░░██║░░░╚██████╔╝           
+░░░╚═╝░░░░╚═════╝░          
+
+	 [*] TELEGRAM KANALLARIMIZ
+	 
+	 [1] dn_uzbek
+	 [2] darknet_off1cial
+	 [3] darknet7719
+	 [4] my_programs
+	 [5] magicbot_uz
+	 [6] darknet_hacking_books
+	 [7] termux scriptlar
+	 """)
+	 if tg == '1':
+	 	os.system("termux-open-url https://t.me/dn_uzbek")
+	 if tg == '2':
+	 	os.system("termux-open-url https://t.me/darknet_off1cial")
+	 if tg == '3':
+	 	os.system("termux-open-url https://t.me/darknet7719")
+	 if tg == '4':
+	 	os.system("termux-open-url https://t.me/my_programs")
+	 if tg == '5':
+	 	os.system("termux-open-url https://t.me/magicbot_uz")
+	 if tg == '6':
+	 	os.system("termux-open-url https://t.me/darknet_hacking_books")
+	 if tg == '7':
+	 	os.system("termux-open-url https://t.me/termux_private")
+if dark == '4':
+	 	pwd = input("md5 shifrlanf: ")
+	 	hash = hashlib.md5(pwd.encode())
+	 	print("Md5 da muvafaqiyatli shifrlandi : \033[1;33m")
+	 	print(hash.hexdigest());
+if dark == '5':
+	 	oz = int(input('son: '))
+	 	x = bin(oz)[2:]
+	 	print(x)
+	 	y = int(x, 2)
+if dark == '7':
+	print("""\033[1;32m
+	Ushbu script Binaryda nomerlarni shifrlasb
+	md5 da shifrlash
+	base64 shifrlash va shifrdan yechish
+	kalkulyator 
+	vazifalarini o'taydi
+	dasturchu: @darknet_off1cial
+	""")
+
+	 	
+	 
+
+
+	 	
+	 	
+	 	
+	 
+
+
