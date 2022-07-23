@@ -57,28 +57,28 @@ if dark == '6':
 
 	 [*] TELEGRAM KANALLARIMIZ
 	 
-	 [1] dn_uzbek
-	 [2] darknet_off1cial
-	 [3] darknet7719
-	 [4] my_programs
-	 [5] magicbot_uz
-	 [6] darknet_hacking_books
-	 [7] termux scriptlar
+	 [1] HAMKORLIK UCHUN
+	 [2] montah rasmlar kanalim
+	 [3] men bn boglanish
+	 [4] hamkor kanal
+	 [5] userbot
+	 [6] dasturlarim
+	 [7] shaxsiy blogim
 	 """)
 	 if tg == '1':
-	 	os.system("termux-open-url https://t.me/dn_uzbek")
+	 	os.system("termux-open-url https://t.me/adm1nstrat0r")
 	 if tg == '2':
-	 	os.system("termux-open-url https://t.me/darknet_off1cial")
+	 	os.system("termux-open-url https://t.me/darknet_edit")
 	 if tg == '3':
-	 	os.system("termux-open-url https://t.me/darknet7719")
+	 	os.system("termux-open-url https://t.me/andro_7719")
 	 if tg == '4':
-	 	os.system("termux-open-url https://t.me/my_programs")
+	 	os.system("termux-open-url https://t.me/Tools_hackeris")
 	 if tg == '5':
-	 	os.system("termux-open-url https://t.me/magicbot_uz")
+	 	os.system("termux-open-url https://t.me/andro_userbot")
 	 if tg == '6':
-	 	os.system("termux-open-url https://t.me/darknet_hacking_books")
+	 	os.system("termux-open-url https://t.me/darknet_portfolio")
 	 if tg == '7':
-	 	os.system("termux-open-url https://t.me/termux_private")
+	 	os.system("termux-open-url https://t.me/andro_py")
 if dark == '4':
 	 	pwd = input("md5 shifrlanf: ")
 	 	hash = hashlib.md5(pwd.encode())
